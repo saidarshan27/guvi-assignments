@@ -1,3 +1,5 @@
+Difference between HTTP1 and HTTP2
+
 http1
 
 1.Uses 6 tcp connections.
@@ -9,3 +11,27 @@ http2
 1.Uses 1 tcp connection with additional streams for the requests.
 2.Supports caching for headers as well as compersion for headers.
 3.Must have TLS certificate.
+
+
+Objects in JavaScript.
+
+Object is a data structure which offers storage in terms of key value pairs.
+Everything in JavaScript is a Object.
+Objects are passed by refrence rather than pass by value like primitives like Strings, Numbers and Booleans.
+
+Objects can be declared like this
+
+let obj = {}
+
+properties can be added while declaring or after declaring
+
+while declaring 
+
+let obj = {name:'GUVI'}
+
+after declaring
+
+let obj = {};
+obj.name = 'GUVI'
+or
+obj['name'] = 'GUVI'.
