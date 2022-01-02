@@ -1,0 +1,11 @@
+http1
+
+1.Uses 6 tcp connections.
+2.Does not have caching for headers which repeat in each request.
+3.Allows websites with no TLS certificate.
+
+http2
+
+1.Uses 1 tcp connection with additional streams for the requests.
+2.Supports caching for headers as well as compersion for headers.
+3.Must have TLS certificate.
