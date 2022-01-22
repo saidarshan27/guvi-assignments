@@ -1,0 +1,21 @@
+Difference between browser js and nodejs
+
+1. NodeJS is built upon google's V8 engine, node provides access to the machine itself through os, file, path modules.
+2. Node does not have document, window objects.
+3. NodeJS is not a framework or a different language all together it is just a run time for JavaScript.
+4.BrowserJS allows us to manipulate with DOM and the UI.
+5. In browserJS window is the global object.
+6. In NodeJS global is the global object.
+
+typeof 
+
+typeof(1)              -  Number
+typeof(1.1)            -  Number
+typeof('1.1')          -  String
+typeof(true)           -  Boolean
+typeof(null)           -  object
+typeof(undefined)      -  undefined
+typeof([])             -  Object
+typeof({})             -  Object
+typeof(NaN)            -  Number
+
