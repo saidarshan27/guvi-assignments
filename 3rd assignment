@@ -27,66 +27,75 @@ function myFunction(item) {
 
 2)RESUME IN JSON FORMAT->
 -----------------------------------------------------------------------------------------------
-{ 
-    "basics": { 
-    "name": "Sai Darshan", 
-    "email": "saidarshan27@gmail.com", 
-    "phone": "8951426231", 
-    "date of birth": "10-12-1999",  
-    "summary": " A summary of rekha...", 
-    }, 
-    "objective": "Highly adaptable to new environments, self-motivated, innovative and extremely organized.", 
-    "career objective": { 
-    "Objective": "to be part of orginatizition where i could enchance myskills for devolpment  of organization and myself " 
-    }, 
+{
+  "basics": {
+    "name": "Sai Darshan",
+    "email": "saidarshan27@gmail.com",
+    "phone": "8951426231",
+    "date of birth": "10-12-1999",
+    "summary": " A summary of rekha...",
     
-    "education": [{
-    "institution": "Jain University",  
-    "area": "bangalore", 
-    "studyType": "Masters", 
-    "year": "2021-2023", 
-    "score": ""
-    "courses": [ 
-    "Master of computer applications - M.C.A" 
-    ]},
+  },
+  "objective": "Highly adaptable to new environments, self-motivated, innovative and extremely organized.",
+  "career objective": {
+    "Objective": "to be part of orginatizition where i could enchance myskills for devolpment  of organization and myself "
+  },
+  "education": [
     {
-    "institution": "MS Ramaiah College of Arts, Scienece and Commerce",  
-    "area": "bangalore", 
-    "studyType": "Bachelors", 
-    "year": "2017-2020", 
-    "score": ""
-    "courses": [ 
-    "Bachelor of Computer Application - B.C.A" 
-    ]},
+      "institution": "Jain University",
+      "area": "bangalore",
+      "studyType": "Masters",
+      "year": "2021-2023",
+      "score": """courses": [
+        "Master of computer applications - M.C.A"
+      ]
+    },
     {
-    "institution": "Seshadripuram Composite PU College",  
-    "area": "bangalore", 
-    "studyType": "PUC", 
-    "year": "2015-2017", 
-    "score": ""
-    "courses": [ 
-    "PCMC" 
-    ]}
-    ],
-    "final year project": [{ 
-    "name": "smart cleaner",  "technology": "Iot", 
-    "keywords": [ 
-    "HTML", 
-    "CSS", 
-    "JavaScript" 
-    ] 
-    }], 
-    "Experience": [
-        {
-          "Role": "operations executive",
-          "Entity": "Infosys Ltd",
-          "Started": "oct 2020",
-          "Location": "Bangalore",
-          "Details": [
-            "Operations Execution and Maintance",
-            "solving Customer Query"
-          ]
-        }],
-    "declaration": [{ 
-    "declaration": "Rekha,here by declare that the above info is true to rest of my knowledge ", 
-    }]
+      "institution": "MS Ramaiah College of Arts, Scienece and Commerce",
+      "area": "bangalore",
+      "studyType": "Bachelors",
+      "year": "2017-2020",
+      "score": """courses": [
+        "Bachelor of Computer Application - B.C.A"
+      ]
+    },
+    {
+      "institution": "Seshadripuram Composite PU College",
+      "area": "bangalore",
+      "studyType": "PUC",
+      "year": "2015-2017",
+      "score": """courses": [
+        "PCMC"
+      ]
+    }
+  ],
+  "final year project": [
+    {
+      "name": "smart cleaner",
+      "technology": "Iot",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }
+  ],
+  "Experience": [
+    {
+      "Role": "operations executive",
+      "Entity": "Infosys Ltd",
+      "Started": "oct 2020",
+      "Location": "Bangalore",
+      "Details": [
+        "Operations Execution and Maintance",
+        "solving Customer Query"
+      ]
+    }
+  ],
+  "declaration": [
+    {
+      "declaration": "Rekha,here by declare that the above info is true to rest of my knowledge ",
+      
+    }
+  ]
+}
