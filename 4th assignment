@@ -1,0 +1,20 @@
+compare two JSON objects 
+
+we can use Object.keys() and pass both the objects as arguement one by one.
+later retrieve the array's containing keys.
+Then use array.includes while traversing one array.
+
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { age:5, name: "Person 1" };
+
+var keys1 = Object.keys(obj1);
+var keys2 = Object.keys(obj2);
+
+keys1.forEach(key=>{
+  if(keys2.includes(key)){
+     //do-something.
+  }
+})
+
+
+Rest country api is not working
