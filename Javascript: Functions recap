@@ -1,41 +1,43 @@
 GUVI: Zen Class — Part 3: Find the culprits and nail them — debugging javascript
 Fix the code to get the largest of three.
 Code:
-aa = (f,s,t) => {
- let f,s,t;
- console.log(f,s,t);
- if(f>s &&f>t){
- console.log(f)}
- else if(s>f && s>t){
- console.log(s)}
- else{
- console.log(t)}
-}
-aa(1,2,3);
+let largeno = (f,s,t) => {
+  if(f>s &&f>t){
+  console.log(f)}
+  else if(s>f && s>t){
+  console.log(s)}
+  else{
+  console.log(t)}
+ }
+ largeno(1,2,3);
+
+
 — — — — — — — — — — — — — — — — — — — — — — — — —
 Fix the code to Sum of the digits present in the number
 Code:
 let n = 123;
+let num=n.toString();
 console.log(add(n));
 function add(n)
 {
-let sum = 10;
-for(var i=0;i<n.length;i++){
- sum+=n[i]
+let sum = 0;
+for(var i=0;i<num.length;i++){
+  sum += parseInt(num[i]);
  }
  return sum;
 }
+
 — — — — — — — — — — — — — — — — — — — — — — — — —
 Fix the code to Sum of all numbers using IIFE function
 Code:
-const arr = [9,8,5,6,4,3,2,1];
+const arr = [9, 8, 5, 6, 4, 3, 2, 1];
+
 (function() {
  let sum = 0;
- for (var i = 0; i <= arr.length; i++);{
+ for (var i = 0; i < arr.length; i++){
  sum += arr[i];
  }
- console.log(sum);
- return sum;
+  console.log(sum);
 })();
 — — — — — — — — — — — — — — — — — — — — — — — — —
 Fix the code to gen Title caps.
